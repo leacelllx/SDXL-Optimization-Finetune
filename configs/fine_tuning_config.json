@@ -1,0 +1,11 @@
+{
+  "base_model": "stablediffusionapi/newdream-sdxl-20",
+  "dataset_name": "ImageNet-small",
+  "dataset_split": "train",
+  "output_dir": "fine_tuned_model",
+  "learning_rate": 0.00005,
+  "batch_size": 8,
+  "epochs": 3,
+  "weight_decay": 0.01,
+  "fp16": true
+}
